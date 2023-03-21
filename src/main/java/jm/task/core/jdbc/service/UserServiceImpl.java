@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
     }
 
     public List<User> getAllUsers() throws SQLException {
-        System.out.printf(userDaoJDBC.getAllUsers().toString());
+        //System.out.println(userDaoJDBC.getAllUsers().toString());
         return userDaoJDBC.getAllUsers();
 
     }
